@@ -940,16 +940,43 @@ export default function App() {
       </main>
 
       {/* FOOTER BAR WITH SPANS */}
-      <footer className="h-12 bg-[#0F172A] border-t border-white/5 flex flex-col sm:flex-row items-center justify-between px-8 text-[11px] text-slate-500 font-medium py-2 gap-1 sm:gap-0 mt-auto shrink-0 select-none">
-        <div className="flex gap-6 italic">
+      <footer className="py-3 bg-[#0F172A] border-t border-white/5 flex flex-col md:flex-row items-center justify-between px-6 lg:px-8 text-[11px] text-slate-500 font-medium gap-3 md:gap-0 mt-auto shrink-0 select-none">
+        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6 italic text-center">
           <span>#SBIHackathon@GFF2026</span>
-          <span className="text-slate-600">|</span>
+          <span className="text-slate-700 hidden sm:inline">|</span>
           <span>Agentic AI & Emerging Tech Theme</span>
         </div>
-        <div className="flex items-center gap-2 uppercase tracking-wider text-[10px]">
-          <span>Ganesh Krishna Reddy</span>
-          <ArrowUpRight className="h-3 w-3 text-emerald-400" />
-          <span className="text-slate-400">CEO, ProgVision Group</span>
+        <div className="flex flex-wrap items-center justify-center gap-3">
+          <span>Created and Developed by <strong className="text-slate-300">Ganesh Krishna Reddy</strong></span>
+          <span className="text-slate-700 hidden sm:inline">|</span>
+          <div className="flex items-center gap-2">
+            <a
+              href="https://github.com/ganeshkrishnareddy/SBIHackathonGFF2026"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#00CCCC] hover:underline"
+            >
+              GitHub Code
+            </a>
+            <span className="text-slate-700">|</span>
+            <a
+              href="https://github.com/ganeshkrishnareddy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#00CCCC] hover:underline"
+            >
+              GitHub Profile
+            </a>
+            <span className="text-slate-700">|</span>
+            <a
+              href="https://www.linkedin.com/in/pganeshkrishnareddy/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#00CCCC] hover:underline"
+            >
+              LinkedIn
+            </a>
+          </div>
         </div>
       </footer>
 
