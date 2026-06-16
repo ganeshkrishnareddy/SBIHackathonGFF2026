@@ -29,6 +29,34 @@ export const SBIHeader: React.FC<SBIHeaderProps> = ({
         <span className="text-[8px] uppercase tracking-wider px-1.5 py-0.5 rounded bg-[#00CCCC]/10 text-[#00CCCC] font-mono border border-[#00CCCC]/20 whitespace-nowrap leading-none">
           Digital Client Hub
         </span>
+        <div className="flex items-center gap-2 border-l border-white/10 pl-2.5">
+          <a
+            href="https://github.com/ganeshkrishnareddy/SBIHackathonGFF2026"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[10px] text-slate-400 hover:text-white transition flex items-center gap-1"
+          >
+            <span>GitHub Code</span>
+          </a>
+          <span className="text-slate-600 text-[10px] select-none">|</span>
+          <a
+            href="https://github.com/ganeshkrishnareddy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[10px] text-slate-400 hover:text-white transition"
+          >
+            GitHub Profile
+          </a>
+          <span className="text-slate-600 text-[10px] select-none">|</span>
+          <a
+            href="https://www.linkedin.com/in/pganeshkrishnareddy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[10px] text-slate-400 hover:text-white transition"
+          >
+            LinkedIn
+          </a>
+        </div>
       </div>
 
       {/* Center: Navigation Tabs */}
