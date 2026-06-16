@@ -4,7 +4,7 @@
 
 # Sarathi AI — Agentic Customer Acquisition & Onboarding Concierge for SBI
 
-Developed by **Ganesh Krishna Reddy** for the SBI Hackathon.
+Created and Developed by **Ganesh Krishna Reddy** for the SBI Hackathon.
 
 **GitHub Repository:** [SBIHackathonGFF2026](https://github.com/ganeshkrishnareddy/SBIHackathonGFF2026)  
 **Developer Profiles:** [LinkedIn](https://www.linkedin.com/in/pganeshkrishnareddy/) | [GitHub Profile](https://github.com/ganeshkrishnareddy)

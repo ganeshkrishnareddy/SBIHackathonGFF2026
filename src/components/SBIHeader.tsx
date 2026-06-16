@@ -29,30 +29,31 @@ export const SBIHeader: React.FC<SBIHeaderProps> = ({
         <span className="text-[8px] uppercase tracking-wider px-1.5 py-0.5 rounded bg-[#00CCCC]/10 text-[#00CCCC] font-mono border border-[#00CCCC]/20 whitespace-nowrap leading-none">
           Digital Client Hub
         </span>
-        <div className="flex items-center gap-2 border-l border-white/10 pl-2.5">
+        <div className="flex items-center gap-2 border-l border-white/10 pl-2.5 text-[10px] text-slate-500 whitespace-nowrap">
+          <span>Created by <strong className="text-slate-300">Ganesh Krishna Reddy</strong>:</span>
           <a
             href="https://github.com/ganeshkrishnareddy/SBIHackathonGFF2026"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[10px] text-slate-400 hover:text-white transition flex items-center gap-1"
+            className="text-slate-400 hover:text-white transition"
           >
-            <span>GitHub Code</span>
+            GitHub Code
           </a>
-          <span className="text-slate-600 text-[10px] select-none">|</span>
+          <span className="text-slate-600 select-none">|</span>
           <a
             href="https://github.com/ganeshkrishnareddy"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[10px] text-slate-400 hover:text-white transition"
+            className="text-slate-400 hover:text-white transition"
           >
             GitHub Profile
           </a>
-          <span className="text-slate-600 text-[10px] select-none">|</span>
+          <span className="text-slate-600 select-none">|</span>
           <a
             href="https://www.linkedin.com/in/pganeshkrishnareddy/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[10px] text-slate-400 hover:text-white transition"
+            className="text-slate-400 hover:text-white transition"
           >
             LinkedIn
           </a>
